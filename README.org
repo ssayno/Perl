@@ -1,0 +1,1 @@
+1. Compare ~grades.pl~ and ~grades.awk~, you can know that AWK is convinient.
