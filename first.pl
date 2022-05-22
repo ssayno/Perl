@@ -57,7 +57,7 @@ print "\@new_array 的实际大小（数组长度）为", scalar @new_array , "\
 print "\033[32mPerl 语言中有三个获取数组长度的方法\033[0m\n";
 print "\t1. 将数组赋值给一个标量\n";
 print "\t2. 使用 scalar \@array_name\n";
-print "\t3. 像 Shell 一样，使用\$\@array_name，然后加一即可（返回的是最后一个下标的数值，所以要加一）\n";
+print "\t3. 像 Shell 一样，使用\$\#array_name，然后加一即可（返回的是最后一个下标的数值，所以要加一）\n";
 
 print "当前行号" . __LINE__."\n";
 @website = ("google", "baidu");

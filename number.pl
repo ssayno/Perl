@@ -30,3 +30,8 @@ if("printf" =~ /\<print\>/){
 }else{
     print "不匹配";
 }
+my %hash = (
+    "name"=>"周国良",
+    "age"=>20
+);
+print "\n",$hash{"name"} ,"\n";

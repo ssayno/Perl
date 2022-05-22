@@ -1,10 +1,13 @@
 #! /usr/bin/perl -w
+use warnings;
+use strict;
+use Cwd qw(cwd chdir);
 
 my $camels = "123";
 print $camels, "\n";
 print $camels + 1, "\n";
 print $camels . "a", "\n";
-$array = [1, 2, 3, 5];
+my $array = [1, 2, 3, 5];
 print @$array[0], "\n";
 my $dog = "September";
 print $camels, " ", $dog, "\n";
@@ -18,3 +21,9 @@ $weekday{"Sun"} = "Sunday";
 print %weekday, "\n";
 $weekday{"other"} = $array;
 print $weekday{'other'}[3] . "\n";
+print $$, "\n";
+print cwd;
+chdir("/home/sayno/go") or die "Can't go to that file";
+print "\n", cwd, "\n";
+print $PROCESS_ID;
+
