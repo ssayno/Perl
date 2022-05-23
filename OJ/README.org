@@ -1,0 +1,3 @@
+1. 9.pl have ~sort~ and ~reverse~ function usage in Perl
+2. useful.sh is add close(FILE) when you use open but forget to close it;
+3. 18.pl show two methods how to get matched value from regular expression.
