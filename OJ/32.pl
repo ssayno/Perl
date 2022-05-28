@@ -1,6 +1,7 @@
 #!/usr/bin/perl -w
 use warnings;
 use strict;
+use English;
 use Data::Dump qw(dump);
 BEGIN{
     $\="\n";
@@ -9,7 +10,7 @@ BEGIN{
 open(FILE, "<:utf8", "nowcoder.txt") || die "Can't open this file";
 my %hash;
 while(<FILE>){
-    if($. == 1){
+    if($N == 1){
         next;
     }
     my @temp = split;
